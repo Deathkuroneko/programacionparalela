@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(Burning_Fractal)
+
+enable_language(CXX CUDA)
+
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -mavx2 -fopenmp"  )
+
+
+find_package(fmt CONFIG REQUIRED)
+find_package(SFML COMPONENTS 
+                    Network
+                    System 
+                    Graphics 
+                    Window
+                    Audio
+                    CONFIG REQUIRED)
+
+
+                    
+add_executable(Burning_Fractal 
+main.cpp
+fractal_Burning.cpp
+fractal_BurningOMP.cpp
+fractal_simd.cpp
+palette.cpp
+burning_gpu.cu
+)
+
+
+target_include_directories(Burning_Fractal PRIVATE
+    ${CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES}
+)
+
+
+target_link_libraries(Burning_Fractal PRIVATE 
+fmt::fmt 
+SFML::System
+SFML::Graphics
+SFML::Window
+SFML::Network
+SFML::Audio
+)

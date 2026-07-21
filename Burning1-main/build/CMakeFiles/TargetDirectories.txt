@@ -1,0 +1,3 @@
+C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir
+C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/edit_cache.dir
+C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/rebuild_cache.dir

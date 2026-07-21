@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\Burning_Fractal.dir\\main.cpp.obj /FdCMakeFiles\\Burning_Fractal.dir\\ /FS -c C:\\tools\\progr_paralela\\FractalBurning\\main.cpp",
+  "file": "C:/tools/progr_paralela/FractalBurning/main.cpp",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\Burning_Fractal.dir\\fractal_Burning.cpp.obj /FdCMakeFiles\\Burning_Fractal.dir\\ /FS -c C:\\tools\\progr_paralela\\FractalBurning\\fractal_Burning.cpp",
+  "file": "C:/tools/progr_paralela/FractalBurning/fractal_Burning.cpp",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/fractal_Burning.cpp.obj"
+},
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\Burning_Fractal.dir\\fractal_BurningOMP.cpp.obj /FdCMakeFiles\\Burning_Fractal.dir\\ /FS -c C:\\tools\\progr_paralela\\FractalBurning\\fractal_BurningOMP.cpp",
+  "file": "C:/tools/progr_paralela/FractalBurning/fractal_BurningOMP.cpp",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/fractal_BurningOMP.cpp.obj"
+},
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\Burning_Fractal.dir\\fractal_simd.cpp.obj /FdCMakeFiles\\Burning_Fractal.dir\\ /FS -c C:\\tools\\progr_paralela\\FractalBurning\\fractal_simd.cpp",
+  "file": "C:/tools/progr_paralela/FractalBurning/fractal_simd.cpp",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/fractal_simd.cpp.obj"
+},
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~2\\MICROS~2\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -external:IC:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -external:W0 /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /utf-8 /FoCMakeFiles\\Burning_Fractal.dir\\palette.cpp.obj /FdCMakeFiles\\Burning_Fractal.dir\\ /FS -c C:\\tools\\progr_paralela\\FractalBurning\\palette.cpp",
+  "file": "C:/tools/progr_paralela/FractalBurning/palette.cpp",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/palette.cpp.obj"
+},
+{
+  "directory": "C:/tools/progr_paralela/FractalBurning/build",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -DFMT_SHARED -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\" -I\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.3\\include\\cccl\" -isystem C:\\tools\\vcpkg-2026.03.18\\installed\\x64-windows\\include -D_WINDOWS -Xcompiler=\" /GR /EHsc\" -Xcompiler=\" -Zi -Ob0 -Od /RTC1\" -std=c++17 -Xcompiler=-MDd -x cu -c C:\\tools\\progr_paralela\\FractalBurning\\burning_gpu.cu -o CMakeFiles\\Burning_Fractal.dir\\burning_gpu.cu.obj -Xcompiler=-FdCMakeFiles\\Burning_Fractal.dir\\,-FS",
+  "file": "C:/tools/progr_paralela/FractalBurning/burning_gpu.cu",
+  "output": "C:/tools/progr_paralela/FractalBurning/build/CMakeFiles/Burning_Fractal.dir/burning_gpu.cu.obj"
+}
+]

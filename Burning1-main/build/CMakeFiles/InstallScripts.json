@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/tools/progr_paralela/FractalBurning/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
